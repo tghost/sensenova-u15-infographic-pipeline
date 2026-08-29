@@ -1,0 +1,201 @@
+{
+ "subjects": [
+  {
+   "description": "卷首左端竖排的两个巨大金色题字'敦煌'，占画面高度约三分之一，泥金笔意带斑驳，下钤一方红色篆刻小印",
+   "appearance_action": "金色题字如壁画榜题，笔触苍劲，边缘带岩彩剥落感",
+   "relationship_position": "横卷左端题签位，右侧紧接驼队模块",
+   "count_anatomy": "两个题字与一枚印章"
+  },
+  {
+   "description": "第一段'丝路客流'：一支由密到疏的骆驼商队剪影横贯，商队长度象征规模，尽头立汉简木牌",
+   "appearance_action": "土红色骆驼剪影成列，首驼高大尾驼渐小，沙丘起伏托底，末端木牌刻字",
+   "relationship_position": "卷首题字右侧，横卷第一段",
+   "count_anatomy": "一支驼队、一块木牌"
+  },
+  {
+   "description": "第二段'洞窟题材格局'：方井套叠的藻井图案中心嵌环形图，环形三色扇区，环心三行数据",
+   "appearance_action": "石青石绿土红三色卷瓣莲花藻井，中心圆环三色扇区如法轮，环心金字",
+   "relationship_position": "横卷中段偏左，紧接驼队之后",
+   "count_anatomy": "一座藻井、一枚环形图"
+  },
+  {
+   "description": "第三段'飞天数字化'：两条飞天飘带自下而上飞舞成上升曲线，飘带末端托举木牌",
+   "appearance_action": "石青与土红飘带卷曲上升，带端莲花托举木牌刻字，飘带上缀点点金箔",
+   "relationship_position": "横卷中段偏右，紧接藻井之后",
+   "count_anatomy": "两条飘带、两块木牌"
+  },
+  {
+   "description": "第三段下侧'沙泉体验'：月牙泉一弯碧水与鸣沙山弧线，泉边立两块小木牌",
+   "appearance_action": "石绿泉水一弯，沙山土黄渐层，芦苇点缀，木牌刻字",
+   "relationship_position": "飞天模块正下方，横卷下缘",
+   "count_anatomy": "一弯泉水、两块木牌"
+  },
+  {
+   "description": "第四段'经卷文旅'：一卷展开的经卷简牍横陈，卷面竖排三行短句",
+   "appearance_action": "黄麻纸经卷两端木轴，卷面中央仅竖排三行墨字，字迹清晰完整无遮挡，丝带飘带一律绕开文字，卷面其余区域为素纸纹理与淡墨莲花纹样，绝无其他文字或类文字符号",
+   "relationship_position": "横卷右段，紧接飞天之后",
+   "count_anatomy": "一卷经卷"
+  },
+  {
+   "description": "卷尾右上'预约小牌'：一方悬挂的木牌，单行刻字",
+   "appearance_action": "朱绳悬木牌，牌面单行金字",
+   "relationship_position": "横卷最右端上侧收尾",
+   "count_anatomy": "一块木牌"
+  },
+  {
+   "description": "底部横贯丝路地图带：赭色长卷带上一条西行路线，沿途四个客源驿站各插小旗",
+   "appearance_action": "赭石色沙盘长带，虚线路径西行，四杆小旗各挂标牌",
+   "relationship_position": "画面最底边横贯封底",
+   "count_anatomy": "一条路线带、四面小旗"
+  }
+ ],
+ "scene": {
+  "setting": "敦煌壁画风文旅数据横卷信息图，土红石青石绿金四色岩彩，背景隐现鸣沙山沙脊与九层楼飞檐剪影，卷首卷尾铃铎点缀",
+  "spatial_layers": "前景为沿卷轴主线排布的数据模块与底部地图带，中景为卷首题字，背景为沙山与窟檐剪影",
+  "supporting_details": [
+   "金箔碎点",
+   "岩彩剥落肌理",
+   "卷轴装裱边"
+  ]
+ },
+ "lighting": {
+  "conditions": "洞窟内烛光与日光斜照交织的暖调照明",
+  "direction": "左上光斜入",
+  "shadow_effect": "模块投影极浅，保持卷面平整紧凑"
+ },
+ "composition": {
+  "framing": "横向长卷叙事构图（非对称网格）：从左至右四段推进——卷首题字与驼队规模、藻井题材格局、飞天数字化与沙泉体验、经卷文旅与卷尾预约牌——模块沿卷轴主线错落咬合排布，间距压缩，底部客源地图带横贯封底",
+  "hierarchy_flow": "视线自左端'敦煌'题字起，随驼队进入画卷，依次经过藻井、飞天、经卷，止于卷尾预约牌，最后落于底部客源带",
+  "negative_space": "负空间压到最小，仅文字四周留窄边呼吸位，无大面积留白"
+ },
+ "style": {
+  "medium": "敦煌壁画风数据信息图，文旅横卷海报",
+  "art_direction": "土红石青石绿金岩彩四色，图表用丝路风物拟态，卷轴装裱感",
+  "palette_materials": "岩彩、金箔、黄麻纸、汉简、藻井、飘带"
+ },
+ "camera": {
+  "viewpoint": "正面平视满版横卷",
+  "lens_focus": "全画面均匀清晰"
+ },
+ "visible_copy": [
+  {
+   "text": "敦煌",
+   "category": "标题",
+   "placement": "卷首左端竖排",
+   "appearance": "金色榜题大字"
+  },
+  {
+   "text": "千年丝路 · 文旅数据画卷（示例数据）",
+   "category": "副标题",
+   "placement": "题字右侧竖排两行",
+   "appearance": "土红小字"
+  },
+  {
+   "text": "年游客 800 万人次",
+   "category": "数据",
+   "placement": "驼队尽头木牌",
+   "appearance": "墨字汉简木牌"
+  },
+  {
+   "text": "壁画题材 55%",
+   "category": "数据",
+   "placement": "藻井环形图环心第一行",
+   "appearance": "金色大字"
+  },
+  {
+   "text": "彩塑题材 25%",
+   "category": "数据",
+   "placement": "藻井环形图环心第二行",
+   "appearance": "石青中字"
+  },
+  {
+   "text": "建筑题材 20%",
+   "category": "数据",
+   "placement": "藻井环形图环心第三行",
+   "appearance": "石绿中字"
+  },
+  {
+   "text": "数字敦煌线上访问 1.2 亿次",
+   "category": "数据",
+   "placement": "飞天长飘带末端木牌",
+   "appearance": "墨字木牌"
+  },
+  {
+   "text": "高精度洞窟复制 28 座",
+   "category": "数据",
+   "placement": "飞天短飘带末端木牌",
+   "appearance": "墨字木牌"
+  },
+  {
+   "text": "骆驼骑行 12 万人次",
+   "category": "数据",
+   "placement": "月牙泉左侧小木牌",
+   "appearance": "墨字木牌"
+  },
+  {
+   "text": "沙泉露营 3.6 万人次",
+   "category": "数据",
+   "placement": "月牙泉右侧小木牌",
+   "appearance": "墨字木牌"
+  },
+  {
+   "text": "文创产品 32 款",
+   "category": "数据",
+   "placement": "经卷卷面第一行",
+   "appearance": "墨字竖行"
+  },
+  {
+   "text": "研学活动 460 场",
+   "category": "数据",
+   "placement": "经卷卷面第二行",
+   "appearance": "墨字竖行"
+  },
+  {
+   "text": "夜游沙洲 150 万人次",
+   "category": "数据",
+   "placement": "经卷卷面第三行",
+   "appearance": "墨字竖行"
+  },
+  {
+   "text": "线上预约率 98%",
+   "category": "数据",
+   "placement": "卷尾悬挂木牌",
+   "appearance": "金字木牌"
+  },
+  {
+   "text": "长三角 34%",
+   "category": "数据",
+   "placement": "底部客源带第一面小旗",
+   "appearance": "墨字标牌"
+  },
+  {
+   "text": "省内 28%",
+   "category": "数据",
+   "placement": "底部客源带第二面小旗",
+   "appearance": "墨字标牌"
+  },
+  {
+   "text": "京津冀 21%",
+   "category": "数据",
+   "placement": "底部客源带第三面小旗",
+   "appearance": "墨字标牌"
+  },
+  {
+   "text": "境外 17%",
+   "category": "数据",
+   "placement": "底部客源带第四面小旗",
+   "appearance": "墨字标牌"
+  }
+ ],
+ "structure": {
+  "type": "",
+  "members": []
+ },
+ "image_description": "一张敦煌壁画风横向长卷数据信息图：卷首金色题字'敦煌'起笔，驼队商旅、藻井环形图、飞天飘带、月牙泉、经卷简牍沿卷轴主线从左至右错落咬合排布，卷尾预约牌收笔，底部丝路客源地图带横贯封底，土红石青石绿金四色岩彩，紧凑满版无留白。",
+ "canvas": {
+  "aspect_ratio": "2:1",
+  "orientation": "landscape",
+  "resolution": "2880x1440"
+ },
+ "negative": "大面积留白, 模块重叠遮挡文字, 编造清单外的数字年份来源, 伪文字乱码, 卷面或装饰上的类文字符号, 丝带飘带遮挡数字"
+}

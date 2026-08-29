@@ -1,0 +1,2 @@
+# generate.py 仅用标准库；verify_with_vlm.py 亦然。
+# 此文件留作占位：如后续加 matplotlib/对比实验脚本再补依赖。
