@@ -33,11 +33,33 @@
 **结论**：数字逐字渲染存在 seed 级随机性（约 1/3 概率出现数字层缺陷），VLM 验收 + 换 seed 重 roll
 是必要闭环；虚构数据场景下"账本跟图走"（修正账本与成图一致）是零成本收敛手段。
 
+## 实验三：Seed 稳定性边界（自检报告任务，双 seed 对照）
+
+任务：工程蓝图风自检报告信息图（原始账本 20 条，含页脚装饰性日期「2026.09.09」）。
+图例：[v1 (seed 42)](../examples/selftest_v1.png) · [v2 (seed 20260909)](selftest_v2_seed20260909.png)
+
+| seed | 账本命中 | 编造 | 主要缺陷 |
+|------|----------|------|----------|
+| 42 | 19/20 | 0 | 页脚日期「2026.09.09」缺失 |
+| 20260909 | 18/20 | 0 | 日期仍缺失；账本「验收 6 维」被模型意译为「六维」 |
+
+**结论**：页脚小字日期跨两个 seed 稳定缺失——这不是实验二那种 seed 级随机抖动，而是该版式角落小字的**稳定渲染盲区**，换 seed 无解。按验收闭环的另一条分支收敛：从账本移除装饰性日期条目（现 `workflows/examples/selftest_report.json` 已修正为 19 条），对 v1 成图复验即满分。
+
+**方法论：双 seed 判别法**——同一 Render JSON 换 seed 重 roll 一次：
+- 缺陷随 seed **漂移**（如实验二的数字层缺陷，~1/3 概率）→ 随机性缺陷，换 seed 重 roll 即可；
+- 缺陷跨 seed **稳定**（如本实验页脚日期）→ 版式性盲区，必须修账本（账本跟图走）。
+
+VLM 验收闭环的「换 seed / 修账本」两条分支，由此有了可操作的判别依据。
+
 ## 复现
 
 ```bash
 # 策略 C 复现（约 700s）
 python scripts/generate.py workflows/examples/dunhuang_v2.json -o out.png --verify -s 45
-# 换 seed 观察 N=3 的数字层随机性
+# 换 seed 观察 N=3 的数字层随机性（实验二）
 for s in 44 45 46; do python scripts/generate.py workflows/examples/dunhuang_v2.json -o out_$s.png -s $s; done
+# 实验三复现：自检报告账本（19 条修正版）双 seed 对照
+python scripts/generate.py workflows/examples/selftest_report.json -o out_s42.png -s 42
+python scripts/generate.py workflows/examples/selftest_report.json -o out_v2.png -s 20260909
+python scripts/verify_with_vlm.py out_s42.png --render-json workflows/examples/selftest_report.json
 ```

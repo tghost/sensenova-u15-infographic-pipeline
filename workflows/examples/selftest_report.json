@@ -1,102 +1,208 @@
 {
-  "subjects": [
-    {
-      "description": "画面中央横排四个巨大工程制图黑体字「文案保真」，白描线稿风格，字底衬淡青蓝图网格，右下角盖一方红色方形审图章，章内两字「实测」",
-      "appearance_action": "工程晒图风黑体大字，白色轮廓，深蓝图纸底上如蓝晒图，红章如审图通过章",
-      "relationship_position": "画面几何中心偏上，字下压一条青色尺寸标注线",
-      "count_anatomy": "四个大字与一枚红色审图章"
-    },
-    {
-      "description": "左列上模块「账本命中率」：白色圆环仪表盘，青色刻度弧，制图圆规造型的指针笔直指向正顶端满刻度，环心两行大数字",
-      "appearance_action": "白线圆环如工程仪表线稿，圆规指针铆接环心",
-      "relationship_position": "左列第一行",
-      "count_anatomy": "一枚圆环仪表盘"
-    },
-    {
-      "description": "右列上模块「预编译砍账」：一条横向白色管道线稿，管身刻 17 段刻度但中段断裂，仅 8 段完整相连，断口处青色警示标注箭头",
-      "appearance_action": "工程管道剖面线稿，断口锯齿状，青色引出线标注",
-      "relationship_position": "右列第一行",
-      "count_anatomy": "一条断裂管道"
-    },
-    {
-      "description": "左列中模块「Seed 抽奖」：三枚白色立方骰子线稿等距排开，居中一枚带裂缝，裂缝处青色标注圈",
-      "appearance_action": "等轴测线稿骰子，点数用小圆点，裂缝用折线",
-      "relationship_position": "左列第二行",
-      "count_anatomy": "三枚骰子"
-    },
-    {
-      "description": "右列中模块「验收六维」：正六边形雷达网线稿，六个顶点各嵌一枚小图标（对勾、空框、叉号、乱纹、遮挡块、天平），中心青色细线连向各顶点",
-      "appearance_action": "白线正六边形双层嵌套，顶点图标如制图符号",
-      "relationship_position": "右列第二行",
-      "count_anatomy": "一座六边形雷达网"
-    },
-    {
-      "description": "左列下模块「单张耗时」：白色时钟表盘线稿，表盘外圈一段青色进度弧走过大半圈，时针分针呈奔跑姿态，表盘下压一条短进度条",
-      "appearance_action": "工程仪表时钟线稿，进度弧端头小三角标记",
-      "relationship_position": "左列第三行",
-      "count_anatomy": "一座时钟与一条进度条"
-    },
-    {
-      "description": "右列下模块「画布规格」：一个白色矩形图框线稿，四角有制图角标，框内居中一行分辨率数字与比例标注，框外一把小直尺",
-      "appearance_action": "制图图框线稿带角标刻度，直尺斜倚框右下",
-      "relationship_position": "右列第三行",
-      "count_anatomy": "一个图框与一把直尺"
-    },
-    {
-      "description": "底部图签栏：一条贯通画面的工程图纸标题栏，细白线分隔三格，左格项目名、中格方法名、右格平台名，栏顶压一条青色双线",
-      "appearance_action": "标准工程图签线稿，格线笔直，文字居中",
-      "relationship_position": "画面底边通栏",
-      "count_anatomy": "一条三格图签栏"
-    }
-  ],
-  "scene": {
-    "setting": "工程蓝图风格自检报告信息图，深蓝晒图纸底色布满淡青色制图网格与角部坐标刻度，四角有装订孔小圆，边缘留白色图框线",
-    "spatial_layers": "前景为中央大字与六个数据模块及图签栏，中景为淡青网格与标注引线，背景为深蓝图纸底色",
-    "supporting_details": ["青色尺寸标注引线牵连各模块", "角部坐标刻度", "散落的制图符号小十字"]
+ "subjects": [
+  {
+   "description": "画面中央横排四个巨大工程制图黑体字「文案保真」，白描线稿风格，字底衬淡青蓝图网格，右下角盖一方红色方形审图章，章内两字「实测」",
+   "appearance_action": "工程晒图风黑体大字，白色轮廓，深蓝图纸底上如蓝晒图，红章如审图通过章",
+   "relationship_position": "画面几何中心偏上，字下压一条青色尺寸标注线",
+   "count_anatomy": "四个大字与一枚红色审图章"
   },
-  "lighting": {
-    "conditions": "均匀制图室照明，无光影渐变，线稿平面化",
-    "direction": "无方向性光，全线稿等亮度",
-    "shadow_effect": "无投影，保持图纸平整感"
+  {
+   "description": "左列上模块「账本命中率」：白色圆环仪表盘，青色刻度弧，制图圆规造型的指针笔直指向正顶端满刻度，环心两行大数字",
+   "appearance_action": "白线圆环如工程仪表线稿，圆规指针铆接环心",
+   "relationship_position": "左列第一行",
+   "count_anatomy": "一枚圆环仪表盘"
   },
-  "composition": {
-    "framing": "满版紧凑构图：中央横排大字居上，六个模块按左三右三两列网格紧密排布，青色标注线牵连，底部图签栏收边",
-    "hierarchy_flow": "视线先落中央「文案保真」大字与红章，随后沿青色引线扫视左右两列六模块，最后停在底部图签栏",
-    "negative_space": "负空间压到最小，仅模块文字四周留窄边，无大面积留白"
+  {
+   "description": "右列上模块「预编译砍账」：一条横向白色管道线稿，管身刻 17 段刻度但中段断裂，仅 8 段完整相连，断口处青色警示标注箭头",
+   "appearance_action": "工程管道剖面线稿，断口锯齿状，青色引出线标注",
+   "relationship_position": "右列第一行",
+   "count_anatomy": "一条断裂管道"
   },
-  "style": {
-    "medium": "工程蓝图风数据信息图，技术自检报告海报",
-    "art_direction": "深蓝晒图底，白色线稿主笔，青色标注点缀，红色审图章唯一暖色点睛，图表造型用工程制图符号拟态",
-    "palette_materials": "深蓝图纸、白线稿、青色标注线、红色印章"
+  {
+   "description": "左列中模块「Seed 抽奖」：三枚白色立方骰子线稿等距排开，居中一枚带裂缝，裂缝处青色标注圈",
+   "appearance_action": "等轴测线稿骰子，点数用小圆点，裂缝用折线",
+   "relationship_position": "左列第二行",
+   "count_anatomy": "三枚骰子"
   },
-  "camera": {
-    "viewpoint": "正面平视满版",
-    "lens_focus": "全画面均匀清晰"
+  {
+   "description": "右列中模块「验收六维」：正六边形雷达网线稿，六个顶点各嵌一枚小图标（对勾、空框、叉号、乱纹、遮挡块、天平），中心青色细线连向各顶点",
+   "appearance_action": "白线正六边形双层嵌套，顶点图标如制图符号",
+   "relationship_position": "右列第二行",
+   "count_anatomy": "一座六边形雷达网"
   },
-  "visible_copy": [
-    { "text": "文案保真", "category": "标题", "placement": "画面中央横排大字", "appearance": "白色工程黑体大字" },
-    { "text": "自检报告", "category": "标题", "placement": "中央大字正下方一行", "appearance": "青色中字" },
-    { "text": "实测", "category": "标题", "placement": "中央大字右下角红色方章内", "appearance": "红底白字章文" },
-    { "text": "2026.09.09", "category": "数据", "placement": "底部图签栏右格第二行", "appearance": "白色小字" },
-    { "text": "账本命中率 100%", "category": "数据", "placement": "左列上模块仪表盘环心第一行", "appearance": "白色大字" },
-    { "text": "24/24 全命中", "category": "数据", "placement": "左列上模块仪表盘环心第二行", "appearance": "青色中字" },
-    { "text": "PE 预编译砍账 53%", "category": "数据", "placement": "右列上模块管道上方引出线标注", "appearance": "白色中字" },
-    { "text": "17 条进 8 条", "category": "数据", "placement": "右列上模块管道下方", "appearance": "青色小字" },
-    { "text": "编译后命中约 12%", "category": "数据", "placement": "右列上模块断口警示标注", "appearance": "青色小字" },
-    { "text": "Seed 抽奖 N=3", "category": "数据", "placement": "左列中模块骰子上方标注", "appearance": "白色中字" },
-    { "text": "数字缺陷约 1/3", "category": "数据", "placement": "左列中模块骰子下方", "appearance": "青色小字" },
-    { "text": "验收 6 维", "category": "数据", "placement": "右列中模块雷达网正上方", "appearance": "白色中字" },
-    { "text": "命中 缺失 编造 乱码 遮挡 加总", "category": "数据", "placement": "右列中模块雷达网正下方一行", "appearance": "青色小字" },
-    { "text": "单张 700 秒", "category": "数据", "placement": "左列下模块时钟右侧", "appearance": "白色中字" },
-    { "text": "50 步 think 模式", "category": "数据", "placement": "左列下模块进度条下方", "appearance": "青色小字" },
-    { "text": "画布 2720x1536", "category": "数据", "placement": "右列下模块图框内第一行", "appearance": "白色中字" },
-    { "text": "比例 16:9", "category": "数据", "placement": "右列下模块图框内第二行", "appearance": "青色小字" },
-    { "text": "Render JSON 直投", "category": "标注", "placement": "底部图签栏左格第一行", "appearance": "白色小字" },
-    { "text": "ComfyUI 本地部署", "category": "标注", "placement": "底部图签栏中格第一行", "appearance": "白色小字" },
-    { "text": "sensenova-u15-infographic-pipeline", "category": "标注", "placement": "底部图签栏右格第一行", "appearance": "白色小字" }
-  ],
-  "structure": { "type": "", "members": [] },
-  "image_description": "一张满版紧凑的工程蓝图风自检报告信息图：深蓝晒图纸底布满淡青制图网格，中央横排白色工程大字「文案保真」盖红色「实测」审图章，左右两列各三个制图符号拟态数据模块（圆规仪表盘、断裂管道、三骰子、六边形雷达、工程时钟、图框规格）由青色标注引线牵连，底部三格工程图签栏收边。",
-  "canvas": { "aspect_ratio": "16:9", "orientation": "landscape", "resolution": "2720x1536" },
-  "negative": "大面积留白, 模块重叠遮挡文字, 编造清单外的数字年份来源, 伪文字乱码, 立体光影渐变"
+  {
+   "description": "左列下模块「单张耗时」：白色时钟表盘线稿，表盘外圈一段青色进度弧走过大半圈，时针分针呈奔跑姿态，表盘下压一条短进度条",
+   "appearance_action": "工程仪表时钟线稿，进度弧端头小三角标记",
+   "relationship_position": "左列第三行",
+   "count_anatomy": "一座时钟与一条进度条"
+  },
+  {
+   "description": "右列下模块「画布规格」：一个白色矩形图框线稿，四角有制图角标，框内居中一行分辨率数字与比例标注，框外一把小直尺",
+   "appearance_action": "制图图框线稿带角标刻度，直尺斜倚框右下",
+   "relationship_position": "右列第三行",
+   "count_anatomy": "一个图框与一把直尺"
+  },
+  {
+   "description": "底部图签栏：一条贯通画面的工程图纸标题栏，细白线分隔三格，左格项目名、中格方法名、右格平台名，栏顶压一条青色双线",
+   "appearance_action": "标准工程图签线稿，格线笔直，文字居中",
+   "relationship_position": "画面底边通栏",
+   "count_anatomy": "一条三格图签栏"
+  }
+ ],
+ "scene": {
+  "setting": "工程蓝图风格自检报告信息图，深蓝晒图纸底色布满淡青色制图网格与角部坐标刻度，四角有装订孔小圆，边缘留白色图框线",
+  "spatial_layers": "前景为中央大字与六个数据模块及图签栏，中景为淡青网格与标注引线，背景为深蓝图纸底色",
+  "supporting_details": [
+   "青色尺寸标注引线牵连各模块",
+   "角部坐标刻度",
+   "散落的制图符号小十字"
+  ]
+ },
+ "lighting": {
+  "conditions": "均匀制图室照明，无光影渐变，线稿平面化",
+  "direction": "无方向性光，全线稿等亮度",
+  "shadow_effect": "无投影，保持图纸平整感"
+ },
+ "composition": {
+  "framing": "满版紧凑构图：中央横排大字居上，六个模块按左三右三两列网格紧密排布，青色标注线牵连，底部图签栏收边",
+  "hierarchy_flow": "视线先落中央「文案保真」大字与红章，随后沿青色引线扫视左右两列六模块，最后停在底部图签栏",
+  "negative_space": "负空间压到最小，仅模块文字四周留窄边，无大面积留白"
+ },
+ "style": {
+  "medium": "工程蓝图风数据信息图，技术自检报告海报",
+  "art_direction": "深蓝晒图底，白色线稿主笔，青色标注点缀，红色审图章唯一暖色点睛，图表造型用工程制图符号拟态",
+  "palette_materials": "深蓝图纸、白线稿、青色标注线、红色印章"
+ },
+ "camera": {
+  "viewpoint": "正面平视满版",
+  "lens_focus": "全画面均匀清晰"
+ },
+ "visible_copy": [
+  {
+   "text": "文案保真",
+   "category": "标题",
+   "placement": "画面中央横排大字",
+   "appearance": "白色工程黑体大字"
+  },
+  {
+   "text": "自检报告",
+   "category": "标题",
+   "placement": "中央大字正下方一行",
+   "appearance": "青色中字"
+  },
+  {
+   "text": "实测",
+   "category": "标题",
+   "placement": "中央大字右下角红色方章内",
+   "appearance": "红底白字章文"
+  },
+  {
+   "text": "账本命中率 100%",
+   "category": "数据",
+   "placement": "左列上模块仪表盘环心第一行",
+   "appearance": "白色大字"
+  },
+  {
+   "text": "24/24 全命中",
+   "category": "数据",
+   "placement": "左列上模块仪表盘环心第二行",
+   "appearance": "青色中字"
+  },
+  {
+   "text": "PE 预编译砍账 53%",
+   "category": "数据",
+   "placement": "右列上模块管道上方引出线标注",
+   "appearance": "白色中字"
+  },
+  {
+   "text": "17 条进 8 条",
+   "category": "数据",
+   "placement": "右列上模块管道下方",
+   "appearance": "青色小字"
+  },
+  {
+   "text": "编译后命中约 12%",
+   "category": "数据",
+   "placement": "右列上模块断口警示标注",
+   "appearance": "青色小字"
+  },
+  {
+   "text": "Seed 抽奖 N=3",
+   "category": "数据",
+   "placement": "左列中模块骰子上方标注",
+   "appearance": "白色中字"
+  },
+  {
+   "text": "数字缺陷约 1/3",
+   "category": "数据",
+   "placement": "左列中模块骰子下方",
+   "appearance": "青色小字"
+  },
+  {
+   "text": "验收 6 维",
+   "category": "数据",
+   "placement": "右列中模块雷达网正上方",
+   "appearance": "白色中字"
+  },
+  {
+   "text": "命中 缺失 编造 乱码 遮挡 加总",
+   "category": "数据",
+   "placement": "右列中模块雷达网正下方一行",
+   "appearance": "青色小字"
+  },
+  {
+   "text": "单张 700 秒",
+   "category": "数据",
+   "placement": "左列下模块时钟右侧",
+   "appearance": "白色中字"
+  },
+  {
+   "text": "50 步 think 模式",
+   "category": "数据",
+   "placement": "左列下模块进度条下方",
+   "appearance": "青色小字"
+  },
+  {
+   "text": "画布 2720x1536",
+   "category": "数据",
+   "placement": "右列下模块图框内第一行",
+   "appearance": "白色中字"
+  },
+  {
+   "text": "比例 16:9",
+   "category": "数据",
+   "placement": "右列下模块图框内第二行",
+   "appearance": "青色小字"
+  },
+  {
+   "text": "Render JSON 直投",
+   "category": "标注",
+   "placement": "底部图签栏左格第一行",
+   "appearance": "白色小字"
+  },
+  {
+   "text": "ComfyUI 本地部署",
+   "category": "标注",
+   "placement": "底部图签栏中格第一行",
+   "appearance": "白色小字"
+  },
+  {
+   "text": "sensenova-u15-infographic-pipeline",
+   "category": "标注",
+   "placement": "底部图签栏右格第一行",
+   "appearance": "白色小字"
+  }
+ ],
+ "structure": {
+  "type": "",
+  "members": []
+ },
+ "image_description": "一张满版紧凑的工程蓝图风自检报告信息图：深蓝晒图纸底布满淡青制图网格，中央横排白色工程大字「文案保真」盖红色「实测」审图章，左右两列各三个制图符号拟态数据模块（圆规仪表盘、断裂管道、三骰子、六边形雷达、工程时钟、图框规格）由青色标注引线牵连，底部三格工程图签栏收边。",
+ "canvas": {
+  "aspect_ratio": "16:9",
+  "orientation": "landscape",
+  "resolution": "2720x1536"
+ },
+ "negative": "大面积留白, 模块重叠遮挡文字, 编造清单外的数字年份来源, 伪文字乱码, 立体光影渐变",
+ "ledger_note": "账本 v2（19 条）：移除页脚装饰性日期 2026.09.09——两 seed(42/20260909) 均稳定缺失，属版式渲染盲区非随机抖动，见 ablation/results.md 实验三"
 }
