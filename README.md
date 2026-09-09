@@ -3,12 +3,16 @@
 > 单卡跑 SenseNova U1.5 Lite（8B-MoT），手工 Render JSON 直投出高密度中文数据信息图，
 > 配套 VLM 逐字验收闭环。本文所有图均为**虚构演示数据**。
 
-![jingdezhan](examples/jingdezhen_infographic.png)
+![文案保真·自检报告](examples/selftest_v1.png)
+
+> 门面图即本管线给自己出的质检报告：图上「账本命中率 100%」「预编译砍账 53%」等全部数据，
+> 均来自本仓库真实消融实验（见 [ablation/results.md](ablation/results.md)）。
 
 ## 效果一览
 
 | 作品 | 风格 | 版式 | 分辨率 | 文字验收 |
 |------|------|------|--------|----------|
+| [自检报告（门面图）](examples/selftest_v1.png) | 工程蓝图 | 中央大字+四模块仪表 | 2720×1536 | 19/19 全命中 |
 | [景德镇·陶瓷产业](examples/jingdezhen_infographic.png) | 青花瓷 | 中央大字+两列网格 | 2720×1536 | 24/24 全命中 |
 | [敦煌·文旅横卷](examples/dunhuang_infographic_v2.png) | 壁画岩彩 | 横卷叙事 | 2880×1440 | 零破绽定稿 |
 | [白板手绘风格迁移](examples/figecho_whiteboard_v2.png) | 手绘科普 | 单图 | — | 两轮迭代 8→9.5 分 |
