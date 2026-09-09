@@ -25,10 +25,13 @@
 
 ## 验收环境（可选）
 
-`verify_with_vlm.py` 走 OpenAI 兼容多模态接口，本地 vLLM/Qwen-VL 或云端模型均可：
+`verify_with_vlm.py` 走 OpenAI 兼容多模态接口，推荐使用云端视觉模型（如智谱）：
 
 ```bash
-export VLM_API_BASE="http://your-vlm:8000/v1"
+export VLM_API_BASE="https://open.bigmodel.cn/api/paas/v4"
 export VLM_API_KEY="..."
-export VLM_MODEL="qwen2.5-vl-72b"
+export VLM_MODEL="glm-5.3-flash"   # 带视觉；或 glm-4.6v
 ```
+
+> ⚠️ 型号选型注意：`glm-5.3` 为纯文本模型，不接受图像输入（会报 content.type 非法）；
+> 图片验收请务必选带视觉能力的模型，如 `glm-5.3-flash` / `glm-4.6v`。
