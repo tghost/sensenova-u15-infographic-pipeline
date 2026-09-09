@@ -14,7 +14,7 @@
 |------|------|------|--------|----------|
 | [自检报告（门面图）](examples/selftest_v1.png) | 工程蓝图 | 中央大字+四模块仪表 | 2720×1536 | 19/19 全命中 |
 | [景德镇·陶瓷产业](examples/jingdezhen_infographic.png) | 青花瓷 | 中央大字+两列网格 | 2720×1536 | 24/24 全命中 |
-| [敦煌·文旅横卷](examples/dunhuang_infographic_v2.png) | 壁画岩彩 | 横卷叙事 | 2880×1440 | 零破绽定稿 |
+| [敦煌·文旅横卷](examples/dunhuang_infographic_v2.png) | 壁画岩彩 | 横卷叙事 | 2880×1440 | 17/18（吞 0，另有少量鬼画符瑕疵） |
 | [白板手绘风格迁移](examples/figecho_whiteboard_v2.png) | 手绘科普 | 单图 | — | 两轮迭代 8→9.5 分 |
 
 消融实验见 [ablation/results.md](ablation/results.md)——同题三种 prompt 策略的文字保真对比。
